@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://lortbntr:k3HA2TZO6qcSsYxu9g92jsXDeVjZAgIG@balarama.db.elephantsql.com:5432/lortbntr",
+    "dialect": "postgres",
+    "operatorAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
